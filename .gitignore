@@ -1,0 +1,8 @@
+# Archivos temporales y copias de respaldo de CAD
+~$*
+*.swp
+*.swb
+*.sldbak
+*.bak
+.DS_Store
+Thumbs.db
