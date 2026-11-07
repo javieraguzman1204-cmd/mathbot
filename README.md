@@ -2,7 +2,7 @@
 
 Robot cartesiano en desarrollo para dibujar con lápiz o lapicero y, mediante un segundo cabezal, detectar y levantar objetos ferrosos. El proyecto combina diseño mecánico en SolidWorks, movimiento en los ejes X e Y y un mecanismo de elevación en Z.
 
-**Estado:** en desarrollo. Esta entrega del repositorio contiene el diseño CAD; el firmware, el esquema eléctrico y las pruebas del robot físico no están incluidos.
+**Estado:** en desarrollo. Proyecto individual de **Javier Guzmán**. El autor ya probó el movimiento del prototipo y confirmó que funciona correctamente. Esta entrega del repositorio contiene el diseño CAD; el firmware, el esquema eléctrico y la evidencia de las pruebas físicas no están incluidos.
 
 ![Vista del ensamblaje de Mathbot en eDrawings](docs/mathbot-ensamblaje.jpg)
 
@@ -67,15 +67,15 @@ La carpeta [`cad/`](cad/) conserva los nombres y el contenido de los archivos re
 git clone https://github.com/javieraguzman1204-cmd/mathbot.git
 ```
 
-Se verificó la visualización del ensamblaje en eDrawings. No se ha comprobado su reconstrucción editable en SolidWorks, las tolerancias mecánicas ni el funcionamiento del hardware. Los archivos nativos se publican sin modificaciones; no se incluyen exportaciones STEP o STL en esta entrega.
+Se verificó la visualización del ensamblaje en eDrawings. El movimiento del prototipo fue probado satisfactoriamente por su autor; no se incluyen mediciones de precisión ni evidencia de esa prueba. La reconstrucción editable en SolidWorks, las tolerancias mecánicas, el dibujo y la secuencia de detección, sujeción y elevación todavía no cuentan con validación documentada en este repositorio. Los archivos nativos se publican sin modificaciones; no se incluyen exportaciones STEP o STL en esta entrega.
 
 ## Trabajo pendiente de documentar
 
-- Avance de fabricación, montaje y pruebas de movimiento y dibujo.
+- Avance de fabricación y montaje, evidencia del movimiento ya probado y pruebas de dibujo.
 - Electrónica de control, alimentación, controladores de motores y conexiones del sensor y el electroimán.
 - Firmware, calibración, sincronización de los motores de Y y secuencia de recogida y elevación.
 - Planos acotados, materiales y resultados de pruebas de precisión y carga.
 
 ## Créditos
 
-Proyecto compartido por Javier Guzmán para su portafolio. La relación de integrantes y sus aportaciones está pendiente de confirmar.
+Proyecto individual de **Javier Guzmán**, publicado como parte de su portafolio.
